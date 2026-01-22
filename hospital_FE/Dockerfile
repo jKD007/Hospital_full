@@ -9,4 +9,4 @@ RUN yarn install
 RUN yarn build
 
 FROM nginx
-COPY --from=build-react /react-fedist usr/share/nginx/html
+COPY --from=build-react /react-fe/dist usr/share/nginx/html
