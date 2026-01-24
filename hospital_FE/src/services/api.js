@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Xử lý API URL
 // export const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5247/api';
-export const API_BASE_URL = 'http://167.172.74.41/:8080/api';
+export const API_BASE_URL = 'http://167.172.74.41:8080/api';
 
 // Xử lý Media URL - loại bỏ /api ở cuối
 export const MEDIA_BASE_URL = API_BASE_URL.endsWith('/api')

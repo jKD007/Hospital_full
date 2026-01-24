@@ -18,9 +18,11 @@ EXPOSE 8080
 CMD ["dotnet", "Hospital_API.dll"] 
 
 # docker rm -f cons-dotnet && docker rmi img-dotnet
-# docker build . -t img-dotnet
 
+# cd Hospital_full/hopital_BE/Hospital_API
+# docker build . -t img-dotnet
 # docker run -d -p 8080:8080 --name cons-dotnet img-dotnet
 
+# cd hospital_FE
 # docker build . -t img-react
 # docker run -d -p 3004:80 --name cons-react img-react
