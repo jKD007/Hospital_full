@@ -22,4 +22,5 @@ CMD ["dotnet", "Hospital_API.dll"]
 
 # docker run -d -p 8080:8080 --name cons-dotnet img-dotnet
 
-# docker run -d -p 3004:80 --name cons-dotnet img-react
+# docker build . -t img-react
+# docker run -d -p 3004:80 --name cons-react img-react
